@@ -1,0 +1,34 @@
+{
+  "name": "koa-user",
+  "version": "1.0.0",
+  "description": "a koa user model",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --recursive --timeout=15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolwust/koa-model.git"
+  },
+  "keywords": [
+    "koa",
+    "user",
+    "model"
+  ],
+  "author": "coolwust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolwust/koa-model/issues"
+  },
+  "homepage": "https://github.com/coolwust/koa-model#readme",
+  "dependencies": {
+    "bcrypt": "0.8.*",
+    "co": "^4.5.4",
+    "es6-promisify": "^2.0.0",
+    "rethinkdb": "^2.0.0-2"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
